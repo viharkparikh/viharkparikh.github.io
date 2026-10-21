@@ -5,19 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vihar Parikh, product leader</title>
 <meta name="description" content="Vihar Parikh is a product leader in Berlin. He leads teams that ship AI products at Miro, and builds with agents himself.">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="dark light">
 <link rel="stylesheet" href="style.css">
 <script>
-// Light first. Dark only when chosen (footer toggle, remembered) or ?theme=dark.
+// Dark first. Light only when chosen (top toggle, remembered) or ?theme=light.
 (function () {
   var q = new URLSearchParams(location.search), t = q.get('theme');
   try { t = t || localStorage.getItem('theme'); } catch (err) {}
-  if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  if (t !== 'light') document.documentElement.setAttribute('data-theme', 'dark');
 })();
 </script>
 </head>
 <body>
-<nav class="top wrap" aria-label="Sections"><a class="home" href="#">Vihar Parikh</a><span><a href="#work">Highlights</a><a href="#leadership">How I lead</a><a href="#media">Videos</a><a href="#experience">Experience</a><a href="#contact">Contact</a></span></nav>
+<nav class="top wrap" aria-label="Sections"><a class="home" href="#">Vihar Parikh</a><span><a href="#work">Highlights</a><a href="#leadership">How I lead</a><a href="#media">Videos</a><a href="#experience">Experience</a><a href="#contact">Contact</a><button class="theme" type="button" onclick="toggleTheme()" aria-label="Switch colour theme">Light mode</button></span></nav>
 <main>
 
 <header class="hero wrap">
@@ -110,7 +110,7 @@
   <p class="links strong"><a href="mailto:viharkparikh@gmail.com">viharkparikh@gmail.com</a><a href="https://www.linkedin.com/in/viharparikh" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/viharkparikh" target="_blank" rel="noopener">GitHub</a></p>
 </section>
 </main>
-<footer class="wrap"><p>Vihar Parikh, Berlin</p><button class="theme" type="button" onclick="toggleTheme()">Dark mode</button></footer>
+<footer class="wrap"><p>Vihar Parikh, Berlin</p></footer>
 <script>
 function toggleTheme() {
   var d = document.documentElement, dark = d.getAttribute('data-theme') !== 'dark';
