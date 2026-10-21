@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vihar Parikh, product leader</title>
+<meta name="description" content="Vihar Parikh is a product leader in Berlin. He leads teams that ship AI products at Miro, and builds with agents himself.">
+<meta name="color-scheme" content="light">
+<link rel="stylesheet" href="style.css">
+<script>
+// Light first. Dark only when chosen (footer toggle, remembered) or ?theme=dark.
+(function () {
+  var q = new URLSearchParams(location.search), t = q.get('theme');
+  try { t = t || localStorage.getItem('theme'); } catch (err) {}
+  if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+})();
+</script>
+</head>
+<body>
+<nav class="top wrap" aria-label="Sections"><a class="home" href="#">Vihar Parikh</a><span><a href="#work">Highlights</a><a href="#leadership">How I lead</a><a href="#media">Videos</a><a href="#experience">Experience</a><a href="#contact">Contact</a></span></nav>
+<main>
+
+<header class="hero wrap no-photo">
+  <div class="hero-text">
+    <p class="kicker">Product leader, Berlin</p>
+    <h1>Vihar Parikh</h1>
+    <p class="headline">I lead teams that ship AI products at Miro, and I build with agents myself.</p>
+    <p class="intro">At Miro since 2021, where I led Talktrack, Catch-up and AI search, and now lead Widget Creator. I am a co-inventor on two pending US patent applications. Today I lead a PM and two product teams. Before Miro: ShipBob, ad tech at Omnicom, research at MIT, and my first product role at Devis in 2011.</p>
+  </div>
+</header>
+
+<section class="talk wrap" id="talk" aria-labelledby="talk-h">
+  <p class="label">Latest talk</p>
+  <h2 id="talk-h">From AI Assisted to AI Native: Rewiring how your teams innovate</h2>
+  <p class="meta">ProductLab Berlin 2026, Deep Dive. 17 Sept 2026. With Joe McLean.</p>
+  <blockquote>AI made every person on our team faster. It didn&#x27;t make the team faster.</blockquote>
+  <p>The talk is about what comes next: the new bottlenecks once everyone moves fast, and what aligned people, shared context and fast decisions look like in practice.</p>
+  <p class="links strong"><a href="https://productlab.app/agenda/17sept26" target="_blank" rel="noopener">Session page</a></p>
+</section>
+
+<section class="wrap" id="work" aria-labelledby="work-h">
+  <h2 id="work-h">A few highlights</h2>
+  <div class="hls"><article class="hl">
+    <p class="where">Miro, now</p>
+    <h3>Widget Creator</h3>
+    <p class="what">Describe the tool you need in plain language and AI builds a live, interactive, multiplayer widget right on the Miro board.</p>
+    <p class="claim">Announced at Miro Canvas 26. Going to public beta now.</p>
+    <p class="call"><span>The call</span> Pitch the beta on the jobs it already does well, like facilitation and decision making, and say plainly what is still being built, instead of promising everything the model can generate.</p>
+    <p class="role"><span>My role</span> I lead it as PM, through beta and distribution: scope, release stages and how it reaches users.</p>
+    <p class="links"><a href="https://miro.com/canvas/" target="_blank" rel="noopener">Miro Canvas 26</a><a href="https://www.forrester.com/blogs/miros-big-bet-can-a-whiteboard-company-become-the-ai-decisioning-layer-for-the-enterprise/" target="_blank" rel="noopener">Forrester on Miro&#x27;s platform bet</a></p>
+  </article><article class="hl">
+    <p class="where">Miro</p>
+    <h3>Catch-up</h3>
+    <p class="what">AI summaries of what changed on a board since you were last there.</p>
+    <p class="claim">One of Miro&#x27;s most adopted AI features.</p>
+    <p class="call"><span>The call</span> Put it in the existing Activity panel, where people already looked for what changed, instead of a new surface. I led the discovery behind that.</p>
+    <p class="role"><span>My role</span> PM for comment summaries and board Catch-up through internal launch, later accountable for the space level version through a PM on my team.</p>
+    <p class="links"><a href="https://help.miro.com/hc/en-us/articles/24002895569298-Catch-up" target="_blank" rel="noopener">Help centre</a><a href="https://community.miro.com/product-news-31/what-s-new-what-we-launched-in-june-2025-24443" target="_blank" rel="noopener">June 2025 launch</a></p>
+  </article><article class="hl">
+    <p class="where">Miro</p>
+    <h3>Talktrack</h3>
+    <p class="what">Recorded walkthroughs that play inside the board.</p>
+    <p class="claim">Rolled out to every Miro user.</p>
+    <p class="call"><span>The call</span> Viewers follow the presenter inside the live board, not a screen capture, so they can still comment and edit while they watch. I backed that direction as the sprint&#x27;s Decider.</p>
+    <p class="role"><span>My role</span> 0 to 1 from my first week at Miro, through a design sprint run with Jake Knapp. I wrote the launch post.</p>
+    <p class="links"><a href="https://miro.com/blog/official-launch-miro-talktrack/" target="_blank" rel="noopener">Launch post</a><a href="https://miro.com/capabilities/talktrack/" target="_blank" rel="noopener">Product page</a><a href="https://help.miro.com/hc/en-us/articles/35405180333202-Talktrack" target="_blank" rel="noopener">Help centre</a></p>
+  </article><article class="hl">
+    <p class="where">Miro</p>
+    <h3>AI search</h3>
+    <p class="what">Describe what you are looking for in plain language and get boards, spaces, templates and people back.</p>
+    <p class="claim">Available to every organization with Miro AI enabled, at no AI credit cost.</p>
+    <p class="call"><span>The call</span> Ship it on Miro&#x27;s existing AI release train instead of its own rollout, so legal, go to market and eng ops work was shared, not rebuilt. That was my call.</p>
+    <p class="role"><span>My role</span> Led it to general availability on 16 Mar 2026.</p>
+    <p class="links"><a href="https://miro.com/blog/whats-new-march-2026/" target="_blank" rel="noopener">What&#x27;s new, March 2026</a><a href="https://help.miro.com/hc/en-us/articles/33909611360658-AI-search" target="_blank" rel="noopener">Help centre</a></p>
+  </article><article class="hl">
+    <p class="where">Personal</p>
+    <h3>My agent fleet</h3>
+    <p class="what">Six Claude Code agents I built for my own work and admin, four of them on a live schedule.</p>
+    
+    <p class="call"><span>The call</span> Build the alarm before the feature. 36 of the 60 failures I logged never reached the API: DNS, PATH and a sleeping laptop, not the model.</p>
+    <p class="role"><span>My role</span> Solo. I wrote the agents, the shared runner and the failure log, and I read the output every day.</p>
+    <p class="links"><a href="https://github.com/viharkparikh/agent-fleet" target="_blank" rel="noopener">Code on GitHub</a></p>
+  </article></div>
+  <p class="also">Also: interactive stickers, shipped with Miro&#x27;s Innovation Workspace launch, and a German tutor I built in Claude Code.</p>
+</section>
+
+
+<section class="wrap" id="leadership" aria-labelledby="lead-h">
+  <h2 id="lead-h">How I lead</h2>
+  <ol class="principles"><li><h3>Player coach.</h3><p>I manage a PM, and on my other team I am still the PM myself.</p></li><li><h3>Make the call, and say what it beat.</h3><p>Each highlight above names the call I made and what it beat.</p></li><li><h3>Build to learn.</h3><p>I run my own agents every day, so my calls on AI products come from building them.</p></li></ol>
+</section>
+
+<section class="wrap" id="media" aria-labelledby="media-h">
+  <h2 id="media-h">Videos and writing</h2>
+  <div class="vids"><a class="featured" href="https://www.youtube.com/watch?v=xlguR_KlHOE" target="_blank" rel="noopener"><img src="assets/yt-xlguR_KlHOE.jpg" alt="Thumbnail of the video How I Use Miro to Plan Product Strategy" loading="lazy" width="1280" height="720"><span class="ft">How I Use Miro to Plan Product Strategy</span><span class="fs">Miro, official YouTube channel</span></a><a class="featured" href="https://www.youtube.com/watch?v=aPBzjxOindc" target="_blank" rel="noopener"><img src="assets/yt-aPBzjxOindc.jpg" alt="Thumbnail of the video Most important skills for a Senior Product Manager job" loading="lazy" width="1280" height="720"><span class="ft">Most important skills for a Senior Product Manager job</span><span class="fs">Life at Miro, video</span></a><a class="featured" href="https://www.youtube.com/watch?v=lpaQfWsjkQA" target="_blank" rel="noopener"><img src="assets/yt-lpaQfWsjkQA.jpg" alt="Thumbnail of the video How I got a Product Management role: Business case review" loading="lazy" width="1280" height="720"><span class="ft">How I got a Product Management role: Business case review</span><span class="fs">Life at Miro, video</span></a></div>
+  <ul class="list"><li><a href="https://miro.com/blog/recap-distributed-2022/" target="_blank" rel="noopener">The (A)Sync Game</a><span>Talk at Miro Distributed &#x27;22</span></li><li><a href="https://miro.com/blog/official-launch-miro-talktrack/" target="_blank" rel="noopener">Official launch: Miro Talktrack, transforming the way we collaborate async</a><span>Miro blog, 13 Sept 2023, written by me</span></li><li><a href="https://dspace.mit.edu/entities/publication/c00f6fca-4f52-4417-9229-a3a3281998cd" target="_blank" rel="noopener">Water Test Kit Evaluation in India</a><span>MIT CITE report, 2016, co-author</span></li></ul>
+</section>
+
+<section class="wrap" id="experience" aria-labelledby="exp-h">
+  <h2 id="exp-h">Experience</h2>
+  <ul class="dated"><li><span class="when">Aug 2024 to present</span><span class="what"><strong>Group Product Manager</strong>Miro, Berlin</span></li><li><span class="when">Apr 2023 to Jul 2024</span><span class="what"><strong>Lead Product Manager</strong>Miro, Berlin</span></li><li><span class="when">Nov 2021 to Apr 2023</span><span class="what"><strong>Product Manager</strong>Miro, Berlin</span></li><li><span class="when">Nov 2020 to Nov 2021</span><span class="what"><strong>Senior Product Manager</strong>ShipBob, Chicago</span></li><li><span class="when">Jul 2018 to Nov 2020</span><span class="what"><strong>Manager</strong>Omnicom, Chicago</span></li><li><span class="when">Oct 2016 to Jun 2018</span><span class="what"><strong>Senior Analyst</strong>Omnicom, New York</span></li><li><span class="when">Jun 2014 to May 2015</span><span class="what"><strong>Manager, Consumer and Market Research</strong>Massachusetts Institute of Technology</span></li><li><span class="when">Nov 2011 to May 2014</span><span class="what"><strong>Product Owner</strong>Devis, Washington D.C.</span></li></ul>
+  <h3 class="sub">Education</h3>
+  <ul class="dated edu"><li><span class="what"><strong>MBA</strong>INSEAD</span></li><li><span class="what"><strong>BA Economics and Foreign Affairs, double major, Echols Scholar</strong>University of Virginia</span></li></ul>
+  
+</section>
+
+<section class="wrap" id="contact" aria-labelledby="contact-h">
+  <h2 id="contact-h">Contact</h2>
+  <p class="links strong"><a href="mailto:viharkparikh@gmail.com">viharkparikh@gmail.com</a><a href="https://www.linkedin.com/in/viharparikh" target="_blank" rel="noopener">LinkedIn</a></p>
+</section>
+</main>
+<footer class="wrap"><p>Vihar Parikh, Berlin</p><button class="theme" type="button" onclick="toggleTheme()">Dark mode</button></footer>
+<script>
+function toggleTheme() {
+  var d = document.documentElement, dark = d.getAttribute('data-theme') !== 'dark';
+  if (dark) d.setAttribute('data-theme', 'dark'); else d.removeAttribute('data-theme');
+  try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (err) {}
+  label();
+}
+function label() { document.querySelector('.theme').textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? 'Light mode' : 'Dark mode'; }
+label();
+// Screenshot helper: ?view=<section id> hides everything above that section.
+(function () {
+  var v = new URLSearchParams(location.search).get('view'), el = v && document.getElementById(v);
+  if (!el) return;
+  var all = document.querySelectorAll('nav.top, main > *');
+  for (var i = 0; i < all.length && all[i] !== el; i++) all[i].classList.add('shot-hide');
+})();
+</script>
+</body>
+</html>
